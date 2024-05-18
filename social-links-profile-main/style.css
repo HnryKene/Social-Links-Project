@@ -44,7 +44,7 @@ body{
     .Location{
     font-weight:bold;
     margin-bottom:20px;
-    color:hsl(224, 80%, 62%)
+    color:rgb(88, 143, 247);
     }
 
     .Occupation{
@@ -62,10 +62,10 @@ ul{
 
  a,
 li {
-    text-decoration:none;
+    text-decoration:none; 
     list-style-type:none;
-
 }
+a { color: inherit; }
 
 .text{
     color:burlywood;
@@ -98,6 +98,14 @@ button:hover {
     }
 }
 
-.footer{
-    
-}
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+  }
+
+  .footers-text{
+    color:rgb(88, 143, 247);
+  }
