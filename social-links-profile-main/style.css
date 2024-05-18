@@ -45,12 +45,36 @@ body{
     margin-bottom:20px;
     color:hsl(224, 80%, 62%)
     }
+
+    .Occupation{
+        margin-bottom:20px;
+    }
+}
+ul{
+    display: flex;
+    flex-flow:column;
+    margin: 0;
+    padding: 0;
+    gap: 0px;
 }
 
-.Links{
-    display:flex;
+
+ a, li{
+    text-align:center;
+    text-decoration:none;
+    list-style-type:none;
     
 }
-li{
-    list-style-type:none;
+
+
+button{
+    cursor:pointer;
+    background-color:hsl(0, 0%, 20%);
+    color:white;
+    border-radius: 8px;
+    border: 1px solid hsl(0, 0%, 20%);
+    padding: 14px 55px 14px 55px;
+    margin-bottom:20px;
+    font-size:15px;
+    font-weight:bold;
 }
