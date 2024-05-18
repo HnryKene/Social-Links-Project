@@ -38,6 +38,7 @@ body{
     font-size:24px;
     font-weight:100;
     font-weight:bold;
+    margin-top:20px;
     margin-bottom:10px;
     }
 
@@ -58,18 +59,20 @@ ul{
     padding: 0;
     gap: 0px;
 }
-
-
  a,
 li {
-    text-decoration:none; 
+    text-decoration:none;
     list-style-type:none;
+}
+a:hover{
+    text-decoration:underline;
 }
 a { color: inherit; }
 
 .text{
     color:burlywood;
 }
+
 button{
     cursor:pointer;
     background-color:hsl(0, 0%, 20%);
