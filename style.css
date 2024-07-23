@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap');
+
+body{
+    background-color:hsl(0, 0%, 8%);
+    font-family: "Inter";   
+    font-size:14px;
+    text-align:center;
+}
+
+
+
+
+.information-container{
+    background: hsl(0, 0%, 12%);
+    border: hsl(0, 0%, 12%);
+    width: 350px;
+    height: 600px;
+    margin:auto;
+    margin-top:30px;
+    border-radius:10px;
+    display:flex;
+    flex-direction:column;
+}
+
+.social-links-profile{
+    margin: 20px 0px 20px 0px;
+    border-radius:50%;
+}
+
+.About-me{
+    color: hsl(0, 0%, 100%);
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-flow:column;
+     
+    .Name{
+    font-size:24px;
+    font-weight:100;
+    font-weight:bold;
+    margin-top:20px;
+    margin-bottom:10px;
+    }
+
+    .Location{
+    font-weight:bold;
+    margin-bottom:20px;
+    color:rgb(88, 143, 247);
+    }
+
+    .Occupation{
+        margin-bottom:20px;
+    }
+}
+ul{
+    display: flex;
+    flex-flow:column;
+    margin: 0;
+    padding: 0;
+    gap: 0px;
+}
+ a,
+li {
+    text-decoration:none;
+    list-style-type:none;
+}
+a:hover{
+    text-decoration:underline;
+}
+a { color: inherit; }
+
+.text{
+    color:burlywood;
+}
+
+button{
+    cursor:pointer;
+    background-color:hsl(0, 0%, 20%);
+    border-radius: 8px;
+    border: 1px solid hsl(0, 0%, 20%);
+    padding: 14px 100px 14px 100px;
+    margin:10px;
+    font-size:15px;
+    font-weight:bold;
+    width: 90%;
+}
+
+button:hover {
+    background-color:rgb(235, 236, 245);
+    transition: 0.7s;
+}
+
+@media only screen and (max-width: 767px) {
+    .container:hover
+    {
+        background-color: #FFFFFF !important;
+        transition: none;
+    }
+    .container:hover .text {
+        color: #101010 !important;
+    }
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+  }
+
+  .footers-text{
+    color:rgb(88, 143, 247);
+  }
